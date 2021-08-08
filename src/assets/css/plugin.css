@@ -1,0 +1,104 @@
+
+  .player-timeline{
+    width: 100%;
+    /* float: left; */
+    margin: auto;
+    left: 11px;
+    position: relative;
+    margin-top: 42px;
+    padding-bottom: 55px;
+  }
+  span.range-span {
+    float: left;
+    font-size: 12px;
+    color: #bbb;
+    position: relative;
+    margin-top: 24px;
+    width: 12%;
+  }
+  span.range-span:after {
+    width: 1px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+    content: '';
+    display: block;
+    top: -36px;
+  }
+  span.range-span.range-eight:after {
+    right: 81%;
+  }
+  span.range-span.range-six {
+    left: 6%;
+  }
+  span.range-span.range-seven:after {
+    left: 32% !important;
+  }
+  span.range-span.range-five:after {
+    margin-left: 35% !important;
+  }
+  span.range-span.range-four:after {
+    left: 67%;
+  }
+  span.range-span.range-three {
+    left: 9%;
+  }
+  span.range-span.range-five {
+    left: 3%;
+  }
+  span.range-span.range-two {
+    left: 6%;
+  }
+  span.range-span.range-two:after {
+    left: 33%;
+  }
+  span.range-span.range-one:after {
+    left: 104%;
+  }
+  
+
+
+
+
+
+
+
+
+  .slider {
+    width:99%;top:17px; margin-left: 3px !important;
+  }
+  
+  .slider > .dragger {
+    
+    background: white;
+    border: solid 10px #fad25e;
+    width: 42px;
+    height: 42px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    z-index: 9;
+  }
+ 
+  
+  .slider > .track, .slider > .highlight-track {
+    background: #56d66a; /* Old browsers */
+  background: -moz-linear-gradient(left, #56d66a 0%, #a4d464 23%, #d8d261 39%, #f6a261 55%, #f38563 67%, #ee5267 100%) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #56d66a 0%, #a4d464 23%, #d8d261 39%, #f6a261 55%, #f38563 67%, #ee5267 100%) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #56d66a 0%, #a4d464 23%, #d8d261 39%, #f6a261 55%, #f38563 67%, #ee5267 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56d66a', endColorstr='#ee5267', GradientType=1 ); /* IE6-9 */
+  
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    height: 24px;
+  }
+  
+  .slider > .highlight-track {
+    background-color: #8DCA09;
+    background: -webkit-linear-gradient(top, #8DCA09, #72A307);
+    background: -moz-linear-gradient(top, #8DCA09, #72A307);
+    background: linear-gradient(top, #8DCA09, #72A307);
+    
+    border-color: #496805;
+  }
