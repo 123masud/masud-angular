@@ -1,3 +1,194 @@
+@media (min-width:991px) and (max-width:6000px) {
+    .aside_title{
+        display: block !important;
+    }
+}
+
+@media (min-width:200px) and (max-width:991px) {
+    html{
+        overflow-x: hidden;
+    }
+ .aside_title{
+    display: none;
+} 
+.top-0-other{
+    top: 0px !important;
+}
+.nav_menu{
+    display: block;
+}
+.border-green-all {
+    border: solid 3px #40d76c;
+}
+.bg-white-nutratox{
+    margin-top: 30px !important;
+    border-radius: 0px;
+    left: 0px;
+    margin: auto;
+    /* display: table; */
+    width: 102%;
+}
+.toxic-left-top{
+    left: 1%;
+   
+}
+.toxic-left-top .list-item-right {
+    width: 100%;
+}
+.bg-white-nutratox .h4-encountered{
+    text-align: center;font-size: 18px;
+}
+.aside_title{
+    height: 200vh;width: 74%;
+}
+.pr-5-custom {
+    padding-right: 15px !important;
+}
+.logo-menu img.desktop-logo{
+    margin-left: 72px;
+}
+.system-check-list .list-item-all {
+    width: 96%;
+}
+.float-left-custom {
+    float: inherit;
+}
+.float-right-custom {
+    float: inherit;
+    
+}
+.system-check-list .pl-0 {
+    padding-left: 15px !important;
+}
+h2.app-all-title{
+    text-align: center !important;
+}
+.bg-sky {
+    background: #c5e7e7 !important;
+}
+.top-cardi-area h4 {
+    font-size: 22px; text-align: center !important;
+}
+img.dog2-progress-img {
+    width: 295px;
+}
+.aside_title {
+height: 500vh;
+}
+.bottom-content-app {
+    width: 94%;
+    right: -2px;
+    top: -37px;
+}
+.learn-more-label a {
+    color: #077b7c;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 0px;
+    padding: 0px;
+    /* float: right; */
+}
+.text-ri-cus{
+    text-align: right;
+}
+.player-timeline {
+    width: 100%;
+}
+.bottom-content-app.card-all-top {
+    left: 0px;
+    top: 0px;
+    width: 94%;
+}
+.dog-profile-bg{
+    border-radius: 0px;
+}
+.p-0-hea-s{
+    padding: 0px;
+}
+.mt-cu-suhe{
+    margin-top: 0px !important;
+}
+.dog-profile-bg {
+    height: 380px;
+    padding-top: 20px;
+}
+div.width-health-sum {
+    width: 80%;
+}
+.list-item-right {
+    width: 86%;
+   
+}
+img.icon-left-app {
+   
+    margin-top: 11px;
+}
+.dog-big-area2{
+    top: 0px;
+}
+.bg-light-sky2{
+    background: #d8dcf2 !important;
+}
+.slow-fast-border {
+    border: solid 3px #e2e6fb;
+    box-shadow: 0px 0px 4px 0px #7a82a7;margin-top: 10px;
+}
+.mt-met-bottom {
+    margin-top: 70px;
+}
+.mt-met-bottom .bottom-content-app {
+    width: 92%;
+}
+.footer-green-block{
+    display: block;width: 82%;
+}
+.bgwhite2{
+    background: #fff;
+}
+.bg-white-nutrai{
+    margin-top: 0px;
+}
+.h5.h5-n-new{
+    display: none;
+}
+h5.h5-n-new{
+    display: none;
+}
+.progress-nu .list-item-all {
+    width: 92%;
+    margin-left: 6%;
+}
+.progress-nu .list-item-right {
+    width: 100%;
+}
+.nutritional-lavel:after {
+
+    left: -70px;
+}
+.blood-title-top {
+    top: -23px;
+    width: 103% !important;
+    padding-top: 52px;
+    margin-left: 0px !important;
+}
+.blood-title-top .bottom-content-app {
+    width: 86%;
+    right: 5px;
+    top: -37px;
+}
+}
+@media (min-width:200px) and (max-width:950px) {
+.nutritional-lavel:after {
+    width: 107%;
+    left: -67px;
+}
+img.icon-left-app2 {
+    width: 92px;
+}
+.system-check-list .list-item-right {
+    width: 81%;
+}
+}
 @media (min-width:200px) and (max-width:767px) {
     .app-wrapper-all {
         border: 0px;
@@ -7,6 +198,96 @@
     .app-wrapper-all {
         margin-top: 0px !important;
     }
+    .nutritional-lavel:after {
+        width: 100%;
+    left: -18px;
+    }
+    .width-mobile {
+        width: 94% !important;
+        margin: auto !important;
+        /* display: table; */
+        float: inherit !important;
+    }
+    .add-pets-left {
+        margin-bottom: 40px;
+    }
+    }
+    @media (min-width:200px) and (max-width:699px) {
+        .app-wrapper-all .container-fluid{
+            padding-right:0px;
+            padding-left: 0px;
+        }
+        .banner-bg-area{
+            margin-top: 0px !important;border-radius: 0px;
+            height: 500px;background-position: bottom  !important;
+        }
+        .logo-menu img.desktop-logo{
+            display: none;
+        }
+        img.mobile-app-logo {
+            display: block !important;
+            /* margin: auto; */
+            /* float: inherit; */
+            /* display: table; */
+            margin-left: 28%;
+            position: relative;
+        }
+        .aside_title {
+            border-radius: 0px 16px 0px 0;
+            box-shadow: 0px 2px 5px #676767;
+            width: 88%;
+        }
+        .display-none-block{
+            display: block;
+        }
+        .user-block {
+            margin-top: 8%;
+        }
+        .all-content-area{
+            width: 94%;margin-left: 4%;
+        }
+        .slide-ul {
+           
+            width: 110%;
+            
+        }
+        .slide-ul li {
+            width: 15%;
+            float: left;
+            /* right: -15%; */
+            position: relative;
+            margin-right: 5%;
+        }
+        .padding-lan-right{
+            padding-right: 0px;
+        }
+        .slide-ul li p {
+            text-align: center;
+            color: #adadad;
+            font-weight: 200;
+        }
+        .slide-ul-two {
+           
+            width: 115%;
+        }
+        .slide-ul-two li {
+            width: 44%;
+            margin-bottom: 18px;
+        }
+        h2.h2-banner-bg {
+            font-size: 30px;
+            line-height: 39px;
+        }
+        div.width-health-sum {
+            width: 96%; margin-left: 3%;
+        }
+        .width-mobile {
+            width: 86% !important;
+            margin: auto !important;
+            display: table !important;
+            float: inherit !important;
+            margin-left: 9% !important;
+        }
     }
     @media (min-width:200px) and (max-width:690px) {
     .mar-pre-one {
@@ -33,6 +314,17 @@
     .slide-ul-two li h3{
         font-size: 19px;
     }
+    .contact-form{
+        width: 100% !important;
+    }
+  
+    .system-check-list .list-item-right {
+        width: 76%;
+    }
+    .border-danger-all {
+    
+        left: 1%;
+    }
     }
     @media (min-width:200px) and (max-width:500px) {
     .dog-slow {
@@ -53,6 +345,24 @@
     span.slowspan-right {
         right: -29px;
         bottom: 77px;
+    }
+    .nutritional-lavel:after {
+        width: 100%;
+        left: -1px;
+    }
+    .optimal-title {
+        right: -8px;
+
+    }
+    .progress-nu .list-item-all {
+        width: 97%;
+       
+    }
+    .progress-nu .list-item-all {
+        width: 95%;
+    }
+    .system-check-list .list-item-right {
+        width: 70%;
     }
     }
     @media (min-width:200px) and (max-width:450px) {
@@ -152,6 +462,15 @@
     span.slowspan-right {
         bottom: 58px;
     }
+    .slide-ul li {
+        width: 15%;
+        margin-right: 2%;
+    }
+    .blood-title-top .bottom-content-app {
+        width: 88%;
+        right: 0px;
+        top: -37px;
+    }
     }
     @media (min-width:200px) and (max-width:400px) {
     .list-item-right {
@@ -180,6 +499,23 @@
     }
     .dog-slow img {
         width: 230px;
+    }
+    .slide-ul li {
+        width: 27%;
+        margin-right: 2%;
+    }
+    .slide-ul-two li {
+        width: 45%;
+    }
+    img.mobile-app-logo{
+        margin-left: 19%;
+    }
+    .system-check-list .list-item-right {
+        width: 70%;
+    }
+    img.icon-left-app2 {
+        width: 92px;
+        top: -7px;
     }
     }
     

@@ -1,0 +1,62 @@
+/* .account-ul {
+    width: 80%;
+    margin: auto;
+    margin-top: 35px;
+}
+.account-ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.account-ul li i {
+    float: left;
+    color: #019495;
+    font-size: 25px;
+    margin-right: 4%;
+}
+.account-ul li p {
+    width: 85%;
+    float: left;
+    color: #757373;
+    font-size: 15px;
+} */
+
+.account-form {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+.account-form .form-control {
+    border-color: #88bdbd;
+    margin-bottom: 19px;
+}
+.account-form label {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+button.btn.btn-submit {
+    background: #019495;
+    color: #fff;
+    font-size: 14px;
+    width: 141px;
+    height: 39px;
+ float:right;
+}
+button.btn.btn-submit:hover {
+    background: #057677;
+   
+}
+
+.upload-form {
+    padding: 3.3px;
+}
+h4.edit-account {
+    width: 100%;
+    margin-top: 52px;
+    border-top: solid 1px #ddd;
+    float: left;
+    margin-bottom: 23px;
+    font-size: 20px;
+    padding-top: 25px;
+}

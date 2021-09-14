@@ -16,6 +16,13 @@ import { MetabolismComponent } from './components/metabolism/metabolism.componen
 import { NutritionalLevelsComponent } from './components/nutritional-levels/nutritional-levels.component';
 import { SystemsCheckComponent } from './components/systems-check/systems-check.component';
 import { ToxicMetalsComponent } from './components/toxic-metals/toxic-metals.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { AccountComponent } from './components/account/account.component';
+import { AddPetsComponent } from './components/add-pets/add-pets.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { EditAddPetsComponent } from './components/edit-add-pets/edit-add-pets.component';
 
 @NgModule({
   declarations: [
@@ -33,10 +40,18 @@ import { ToxicMetalsComponent } from './components/toxic-metals/toxic-metals.com
     NutritionalLevelsComponent,
     SystemsCheckComponent,
     ToxicMetalsComponent,
+    AboutUsComponent,
+    ContactUsComponent,
+    AccountComponent,
+    AddPetsComponent,
+    EditAddPetsComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    BsDatepickerModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
